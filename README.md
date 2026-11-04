@@ -1,6 +1,6 @@
 # Gilberth Andrés Páez Ortíz
 ### Senior Software Engineer & AI Systems Architect
-**Full Stack (React, Vue, Astro, Node.js, PHP/Laravel, Python) · Mobile Lead (iOS, Android, Flutter) · Edge AI**
+**Full Stack (React, Vue, Astro, Node.js, PHP/Laravel, Python) · Mobile Lead (iOS, Android, Flutter, React Native) · Edge AI**
 
 <p align="left">
   <a href="https://andrespaez.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-andrespaez.is--a.dev-0A5C6D?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
