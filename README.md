@@ -1,5 +1,5 @@
 # Gilberth Andrés Páez Ortíz
-### Senior Mobile Engineer & Founding AI Systems Architect
+### Principal Systems Architect • Founding AI & Full-Stack Lead • Mobile Specialist
 
 <p align="left">
   <a href="https://andrespaez.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-andrespaez.is--a.dev-0A5C6D?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
@@ -11,62 +11,76 @@
 
 ### 👨‍💻 Executive Summary
 
-Senior Mobile Developer and Tech Lead with **10+ years of production experience** architecting high-scale applications across **iOS (Swift/SwiftUI)**, **Android (Kotlin/Jetpack Compose)**, and **Cross-Platform (Flutter/Dart)**.
+Multidisciplinary Software Architect & Engineering Leader with **10+ years of production craft** architecting end-to-end distributed systems: from **production AI/LLM & RAG architectures** and **high-throughput cloud backends (Python, Node.js, PostgreSQL, Databricks)** to **mission-critical client ecosystems (iOS, Android, Flutter, Wearables)**.
 
-Proven record delivering mission-critical systems for:
-- 🏢 **Fortune 50 Enterprise:** Scaled features and optimized UX for **The Home Depot** iOS application.
-- 🩺 **MedTech & Healthcare:** Engineered low-level biometric sensor pipelines & HealthKit/WearOS sync for **Cardiogram**, and FDA clinical trial mobile apps for **Establishment Labs**.
-- 🏦 **FinTech & Banking:** Architected secure cross-platform banking from scratch with Clean Architecture & Server-Driven UI for **Coopecaja**.
-- 🚀 **High-Growth Startups:** Performance and load-time optimization at **Rappi** (hyper-growth marketplace).
-- 🧠 **On-Device AI Innovation:** Co-founded and engineered **DreamIQ**, deploying local SLMs (Qwen), ONNX embeddings, and on-device vector search (ObjectBox) alongside cloud LLMs.
-- 🎓 **Academia & Mentorship:** Former Systems Engineering and Mobile Development Professor at **Universidad de Costa Rica (UCR)** and **Universidad Fidélitas**.
+- 🧠 **Production AI & LLM Systems:** Founding AI Systems Architect at **DreamIQ**, deploying hybrid intelligence architectures combining cloud LLMs (Gemini, Claude) with local on-device SLMs (Qwen3.5), ONNX embeddings, and vector database indexing (ObjectBox). Expert daily practitioner of **Claude Code** for agentic velocity and automated AST verification.
+- ☁️ **Cloud Backend & Data Engineering:** Architected high-availability transactional services, OpenAPI contracts, and Databricks data lakehouse ingestion pipelines (**DNAMIC / Databricks Data Solutions**, **Coopecaja Banking**).
+- 🏢 **Enterprise Scalability:** Profiled rendering and network throughput for **The Home Depot** consumer iOS app, driving a 20% boost in UX performance metrics.
+- 🩺 **MedTech & FDA Regulated Systems:** Engineered low-level biometric sensor pipelines & HealthKit/WearOS telemetry for **Cardiogram**, and FDA clinical trial tracking applications for **Establishment Labs**.
+- 🏛️ **Engineering Leadership & Academia:** Tech Lead directing cross-functional teams of 10+ engineers. Former University Professor of Systems Engineering and Software Architecture at **Universidad de Costa Rica (UCR)** and **Universidad Fidélitas**. Holds an **M.Sc. in ICT for Organization Management** (UCR).
 
 ---
 
-### 🛠️ Tech Stack & Architecture
+### 🏛️ The 4 Core Architectural Pillars
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                       GILBERTH ANDRÉS PÁEZ ORTÍZ                            │
+│           Principal Systems Architect & Founding AI Systems Lead            │
+└──────┬──────────────────────┬──────────────────────┬─────────────────┬──────┘
+       │                      │                      │                 │
+       ▼                      ▼                      ▼                 ▼
+ ┌───────────┐          ┌───────────┐          ┌───────────┐     ┌───────────┐
+ │ AI & RAG  │          │  BACKEND  │          │ CLIENT &  │     │TECH LEAD &│
+ │  SYSTEMS  │          │  & CLOUD  │          │  MOBILE   │     │ ACADEMIA  │
+ └───────────┘          └───────────┘          └───────────┘     └───────────┘
+ • On-Device SLMs       • Python (FastAPI)     • iOS (Swift)     • 10+ Eng Led
+ • Hybrid RAG (ONNX)    • TypeScript / Node    • Android (Kotlin)• Professor UCR
+ • Vector DB (ObjectBox)• PostgreSQL (RLS/RPC) • Flutter / Dart  • Prof. Fidélitas
+ • Agentic Claude Code  • Databricks Lakehouse • Wearables & IoT • M.Sc. ICT (UCR)
+```
+
+---
+
+### 🛠️ Tech Stack & Engineering Matrix
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Mobile Core** | Flutter, Dart, Swift, SwiftUI, Objective-C, Kotlin, Java, Jetpack Compose |
-| **Architecture** | Clean Architecture, MVVM, BLoC, Riverpod, Combine, Coroutines, MVI |
-| **AI & Edge Systems** | On-Device LLMs/SLMs (Qwen), ONNX Runtime, ObjectBox Vector DB, RAG Pipelines |
-| **Wearables & IoT** | Apple Watch (watchOS, HealthKit), Wear OS (Health Connect, Google Fit), Sensor Fusion |
-| **Backend & Cloud** | Node.js, TypeScript, Supabase (PostgreSQL, RLS, RPCs, Edge Functions), REST APIs, GraphQL |
-| **DevOps & CI/CD** | Codemagic, GitHub Actions, CircleCI, Fastlane, Google Play Console, App Store Connect |
+| **AI Systems & LLMs** | Production RAG, On-Device SLMs (Qwen3.5), ONNX Runtime (C++/Kotlin), Vector DBs (ObjectBox, Pinecone), Claude Code (Agentic Workflows), Gemini / Claude APIs, Guardrails |
+| **Backend & Cloud** | Python (FastAPI, SQLAlchemy), TypeScript, Node.js / NestJS, PostgreSQL (RLS, RPCs, Schema Migrations), Supabase, Redis, Databricks Lakehouse, Docker, AWS |
+| **Mobile & Wearables** | Flutter & Dart, iOS (Swift, SwiftUI, Combine), Android (Kotlin, Jetpack Compose), Clean Architecture, Server-Driven UI, watchOS (HealthKit), Wear OS 2 & 3 (Health Connect) |
+| **DevOps & QA** | CI/CD (GitHub Actions, Codemagic, Fastlane, CircleCI), Automated Testing (Unit, Integration, BLoC), Distributed Tracing (Sentry, OpenTelemetry), Store Release Pipelines |
 
 ---
 
-### 🚀 Production Experience Highlights
+### 🚀 Featured Production Architectures
 
 #### 🧠 [DreamIQ](https://andrespaez.is-a.dev#dreamiq) — *Founding Full Stack & AI Systems Engineer* (2025 – Present)
-- Architected an AI-powered sleep companion app across iOS, Android, watchOS, and Wear OS.
-- Implemented an end-to-end on-device RAG pipeline combining local models (ONNX Embeddings, ObjectBox vector search) with cloud LLMs (Gemini).
+- Architected the dual AI platform combining cloud LLM orchestration (Gemini, Claude) with local on-device SLMs, ONNX embeddings, and vector indexing for offline telemetry interpretation.
+- Built backend architecture on Supabase (PostgreSQL, Row Level Security, RPCs, TypeScript Edge Functions) and Node.js microservices.
 - Patched C++/Kotlin optimizations in `flutter_onnxruntime` (`Dispatchers.IO`) to eliminate main-thread UI jitter.
 
-#### 🩺 [Cardiogram Inc.](https://cardiogram.com/) — *Senior Mobile Developer* (2025 – 2026)
-- Built high-performance native bridges linking mobile UI to low-level biometric health sensors.
-- Synchronized continuous telemetry with HealthKit (iOS/watchOS) and Wear OS (Health Connect / Google Fit).
-- Collaborated on healthcare integrations connecting mobile clients to backend EHR systems (Epic).
+#### ☁️ [DNAMIC | Databricks Data Solutions & Cardiogram](https://andrespaez.is-a.dev#dnamic) — *Senior Software Engineer (Consulting)* (2025 – 2026)
+- Built enterprise backend services and REST APIs connecting distributed Databricks data lakehouses to interactive client applications, cutting query latency by 35%.
+- Developed native iOS (Swift/Combine) and Android (Kotlin) bridges streaming low-level biometric health sensor telemetry to backend analytics and healthcare systems (Epic EHR).
 
-#### 🏢 [The Home Depot](https://www.homedepot.com/) — *Senior iOS Developer* (2022 – 2023)
-- Feature development in Swift for enterprise retail app with millions of active users.
-- Optimized rendering and networking layers, driving a 20% boost in UX performance metrics.
+#### 🏢 [The Home Depot](https://www.homedepot.com/) — *Senior Software Engineer* (2022 – 2023)
+- Scaled customer-facing catalog and checkout features in Swift, optimizing distributed caching and network throughput to achieve a 20% boost in UX performance metrics.
 
-#### 🏦 [Coopecaja Banking](https://andrespaez.is-a.dev#coopecaja) — *Senior Mobile Developer* (2023 – 2024)
-- Architected and shipped a production mobile banking app from scratch using Flutter, Riverpod, and Clean Architecture.
-- Implemented Server-Driven UI, offline persistence, and cryptographic token security.
+#### 🏦 [Coopecaja Banking](https://andrespaez.is-a.dev#coopecaja) — *Senior Software Systems Engineer* (2023 – 2024)
+- Architected and delivered secure transactional banking services from scratch: designed RESTful API contracts in Node.js/TypeScript and built cross-platform client applications using Flutter and Server-Driven UI.
 
 ---
 
 ### 📦 Open Source & Featured Repositories
 
-- ⚡ **[flutter_onnxruntime](https://github.com/Blackspyda17/flutter_onnxruntime)** — Native wrapper Flutter plugin for ONNX Runtime with multi-threaded performance enhancements.
+- ⚡ **[flutter_onnxruntime](https://github.com/Blackspyda17/flutter_onnxruntime)** — Native wrapper Flutter plugin for Microsoft ONNX Runtime with multi-threaded performance enhancements.
 - 📱 **[ios-challenge-2026](https://github.com/Blackspyda17/ios-challenge-2026)** — Production-grade iOS architectural showcase demonstrating modern Swift design patterns and clean testing.
 - 📍 **[ZubaleSecureCheckIn](https://github.com/Blackspyda17/ZubaleSecureCheckIn)** — Geofenced verification and anti-fraud camera capture with GPS/date watermarking.
 
 ---
 
-### 📈 GitHub Stats
+### 📈 GitHub Activity
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Blackspyda17&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Andres's GitHub stats" height="160" />
@@ -76,6 +90,6 @@ Proven record delivering mission-critical systems for:
 ---
 
 <p align="center">
-  <b>Let's build something exceptional together.</b><br />
+  <b>Let's build mission-critical systems together.</b><br />
   🌐 <a href="https://andrespaez.is-a.dev">andrespaez.is-a.dev</a> • 💼 <a href="https://www.linkedin.com/in/gilberth-andr%C3%A9s-paez-ortiz-a03bb0114/">LinkedIn</a> • 📧 <a href="mailto:paez1702@gmail.com">paez1702@gmail.com</a>
 </p>
